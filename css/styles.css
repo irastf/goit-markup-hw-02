@@ -1,0 +1,145 @@
+:root {
+    --primary-font: font-family: 'Roboto', sans-serif;
+    --secondary-font: font-family: 'Raleway', sans-serif;
+    --accent-color: #404bbf;
+
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+.logo-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;    
+    letter-spacing: 0.03em;
+    color: #4D5AE5;    
+}
+
+.logo-studio {
+   color: #2E2F42;
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.menu-link:hover
+.menu-link:focus {
+    color: var (--accent-color);
+}
+
+.list-contact-menu {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.list-contact-menu:hover
+.list-contact-menu:focus {
+    color: var (--accent-color);
+}
+
+.section-hero {
+    background-color: #2E2F42;
+}
+
+.main-header {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.11;    
+    text-align: center;
+    letter-spacing: 0.02em;    
+    color: #FFFFFF;
+}
+.model-open-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+}
+
+.model-open-btn:hover
+.model-open-btn:focus {
+    color: var (--accent-color);
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.text-information {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+ .secondary-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+ }
+
+ .team {
+    background: #F4F4FD;
+ }
+
+ .logo-link-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;    
+    letter-spacing: 0.03em;
+    color: #4D5AE5;    
+}
+
+.logo-studio-footer {
+    color: #F4F4FD;
+ }
+
+ .footer {
+    background: #2E2F42;
+ }
+
+ .footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+ }
+
+ .button-portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+ }
