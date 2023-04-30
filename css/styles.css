@@ -58,7 +58,7 @@ button {
 
 .menu-link:hover
 .menu-link:focus {
-    color:var(--accent-color);
+    color: var(--accent-color);
 }
 
 /*contacts*/
@@ -74,7 +74,7 @@ button {
 
 .list-contact:hover
 .list-contact:focus {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 /*section hero*/
@@ -186,6 +186,5 @@ button {
 
  .button-portfolio:hover
  .button-portfolio:focus {
-    color: var(--page-color);
     background-color: var(--accent-color);
  }
