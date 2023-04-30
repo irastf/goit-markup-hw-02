@@ -4,7 +4,7 @@
     --accent-color: #404bbf;
     --main-color: #2e2f42;
     --light-mode-background-color: #f4f4fd;
-    --page-background-color: #ffffff;
+    --page-color: #ffffff;
     --body-text-color: #434455;
 
 }
@@ -20,11 +20,12 @@
 body {
     font-family: "Roboto", sans-serif;
     color:var (--body-text-color);
-    background-color: var (--page-background-color);
+    background-color: var(--page-color);
     font-style: normal;
 }
 
 button {
+    font-family: inherit;
     cursor: pointer;
 }
 
@@ -57,7 +58,7 @@ button {
 
 .menu-link:hover
 .menu-link:focus {
-    color: var (--accent-color);
+    color: var(--accent-color);
 }
 
 /*contacts*/
@@ -73,7 +74,7 @@ button {
 
 .list-contact-menu:hover
 .list-contact-menu:focus {
-    color: var (--accent-color);
+    color: var(--accent-color);
 }
 
 /*section hero*/
@@ -92,20 +93,20 @@ button {
 }
 
 .model-open-btn {
-    font-family: var (--primary-font);
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--page-color);
     background: #4D5AE5;
 }
 
 .model-open-btn:hover
 .model-open-btn:focus {
-    color: var (--accent-color);
+    background-color: var(--accent-color);
 }
 
 
@@ -136,7 +137,7 @@ button {
     letter-spacing: 0.02em;
     line-height: 1.11;
     text-transform: capitalize;
-    color: var (--main-color);
+    color: var(--main-color);
     background: #F4F4FD;
  }
 
@@ -171,7 +172,7 @@ button {
 /*portfolio*/
 
  .button-portfolio {
-    font-family: --primary-font;
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -180,11 +181,11 @@ button {
     text-align: center;
     letter-spacing: 0.04em;
     color: #4D5AE5;
-    background-color: var (--light-mode-background-color);
+    background-color: var(--light-mode-background-color);
  }
 
  .button-portfolio:hover
  .button-portfolio:focus {
-    color: var (--page-background-color);
-    background-color: var (--accent-color);
+    color: var(--page-background-color);
+    background-color: var(--accent-color);
  }
