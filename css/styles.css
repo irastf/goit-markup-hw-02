@@ -5,6 +5,7 @@
     --main-color: #2e2f42;
     --light-mode-background-color: #f4f4fd;
     --page-background-color: #ffffff;
+    --body-text-color: #434455;
 
 }
 
@@ -18,7 +19,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
+    color:var (--body-text-color);
     background-color: var (--page-background-color);
     font-style: normal;
 }
@@ -26,6 +27,9 @@ body {
 button {
     cursor: pointer;
 }
+
+/*logo*/
+
 .logo-link {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -40,6 +44,8 @@ button {
    color: #2E2F42;
 }
 
+/*menu*/
+
 .menu-link {
     font-weight: 500;
     font-size: 16px;
@@ -47,10 +53,14 @@ button {
     letter-spacing: 0.02em;
     color: #2E2F42;
 
+}
+
 .menu-link:hover
 .menu-link:focus {
     color: var (--accent-color);
 }
+
+/*contacts*/
 
 .list-contact-menu {
     font-style: normal;
@@ -66,8 +76,10 @@ button {
     color: var (--accent-color);
 }
 
+/*section hero*/
+
 .section-hero {
-    background-color: #2E2F42;
+    background-color: var(--main-color);
 }
 
 .main-header {
@@ -96,6 +108,11 @@ button {
     color: var (--accent-color);
 }
 
+
+.secondary-header {
+    color: var(--main-color);
+ }
+
 .subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -112,22 +129,18 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
 }
- .secondary-header {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--main-color);
- }
+ 
 
  .team {
     text-align: center;
     letter-spacing: 0.02em;
+    line-height: 1.11;
     text-transform: capitalize;
     color: var (--main-color);
     background: #F4F4FD;
  }
+
+/*foter*/
 
  .logo-link-footer {
     font-family: 'Raleway', sans-serif;
@@ -135,6 +148,7 @@ button {
     font-size: 18px;
     line-height: 1.17;    
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4D5AE5;    
 }
 
@@ -143,7 +157,7 @@ button {
  }
 
  .footer {
-    background: #2E2F42;
+    background: var(--main-color);
  }
 
  .footer-text {
@@ -153,6 +167,8 @@ button {
     letter-spacing: 0.02em;
     color: #F4F4FD;
  }
+
+/*portfolio*/
 
  .button-portfolio {
     font-family: --primary-font;
@@ -169,6 +185,6 @@ button {
 
  .button-portfolio:hover
  .button-portfolio:focus {
-    color: var (--page-background-color: #ffffff);
+    color: var (--page-background-color);
     background-color: var (--accent-color);
  }
